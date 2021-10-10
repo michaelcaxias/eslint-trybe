@@ -44,7 +44,7 @@ npm install eslint --save-dev
 
 ### Após a seleção, utilize o comando abaixo para instalar de acordo com a opção que você escolheu.
 ````shell
-  npm install (opção selecionada)
+  npm install (opção selecionada) --save-dev
 ````
 
 ### Feito a instalação, vá até o arquivo ``.eslintrc.json`` e substitua a configuração inicial da chave ``extends`` para:
