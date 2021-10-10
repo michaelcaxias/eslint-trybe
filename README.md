@@ -58,7 +58,25 @@ npm install eslint --save-dev
 
 ## Configurações recomendadas do arquivo ``.eslintrc.json`` para cada opção selecionada.
 
-### - Se você selecionou a opção **frontend** apenas copie o conteúdo abaixo e cole, substituindo todo o seu arquivo ``.eslintrc.json``:
+### - Se você selecionou a opção **fundamentals** apenas copie o conteúdo abaixo e cole, substituindo todo o arquivo:
+  ````json
+{
+  "extends": "trybe-fundamentals",
+  "rules": {
+    "no-alert": "off",
+    "no-console": "off",
+    "prefer-arrow-callback": "off",
+    "func-names": "off",
+    "no-unused-vars": "warn"
+  },
+  "env": {
+    "browser": true
+  }
+}
+  
+  ````
+
+### - Se você selecionou a opção **frontend** apenas copie o conteúdo abaixo e cole, substituindo todo o arquivo:
   ````json
   {
     "env": {
