@@ -48,6 +48,7 @@ npm install eslint --save-dev
 ````
 
 ### Feito a instalação, vá até o arquivo ``.eslintrc.json`` e substitua a configuração inicial da chave ``extends`` para:
+(o valor do extends deve estar de acordo com a opção selecionada, no caso abaixo foi utilizado a opção 'frontend')
 
 ````json
   "extends": "trybe-frontend",
