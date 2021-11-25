@@ -81,7 +81,7 @@ npm install eslint --save-dev
   {
     "env": {
       "browser": true,
-      "es2020": true
+      "es2021": true
     },
     "extends": "trybe-frontend",
     "parser": "babel-eslint",
